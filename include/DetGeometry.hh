@@ -30,6 +30,7 @@ private:
     G4LogicalVolume*            logicWorld;
     virtual G4VPhysicalVolume*  Construct();
     G4VPhysicalVolume*          physWorld;
+
 public:
     DetGeometry();
     virtual ~DetGeometry();
